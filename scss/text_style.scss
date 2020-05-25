@@ -1,0 +1,70 @@
+@import "mixin.scss", "variables.scss";
+
+body{
+    background-color: rgb(255, 255, 255);
+    font: 12pt sans-serif;
+    color: rgb(39, 15, 2);
+
+    header{
+        background-image: url(../files/concert.jpg);
+        position: relative;
+        text-align: center;
+        color: whitesmoke;
+        @include header(100%, 60px, 700, -1%, 0.2%, $text-shadow1)
+    }
+
+    #block1{
+        font-size: 15pt;
+        b{
+            text-shadow:  $text-shadow2;
+        } 
+        .text{
+            margin-left: 4%;
+            text-align: justify;
+        }
+    }
+
+    a{
+        color: rgb(253, 137, 94);
+        &:hover{
+            color: red;
+        }   
+    }
+
+    .image{
+        text-align: center;
+        font-size: 10pt;
+
+        .img1 {
+            @include images(465px, 290px, 5px)
+        }
+        .img2 {
+            @include images(300px, 300px, 5px)
+        }
+    }
+
+    .song{
+        background-color: rgb(255, 253, 235);
+        margin-top: -1.5%;
+        h2{
+            text-shadow: $text-shadow3;
+        }
+        p{
+            line-height: 1.2;
+            span{
+                white-space: pre;
+                line-height: 0.5;
+                font-family: 'Courier New', Courier, monospace;
+                font-weight: bold;
+                .chords{
+                    margin-left: 10%;
+                }
+            }
+        }
+        .name{
+            background-color: rgb(255, 224, 166);
+        }
+    }
+}
+
+@import "adaptation_1023.scss", "adaptation_600.scss";

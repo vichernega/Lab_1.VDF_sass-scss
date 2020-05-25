@@ -1,0 +1,13 @@
+@mixin header($bsixe, $fsize, $fweight, $mtop, $ptop, $tshad) {
+    background-size: $bsixe;
+    font-size: $fsize;
+    font-weight: $fweight;
+    margin-top: $mtop;
+    padding-top: $ptop;
+    text-shadow: $tshad;
+}
+@mixin images($wid, $heig, $borderR) {
+    width: $wid;
+    height: $heig;
+    border-radius: $borderR;
+}

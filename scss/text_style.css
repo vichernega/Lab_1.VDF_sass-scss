@@ -1,0 +1,184 @@
+body {
+  background-color: white;
+  font: 12pt sans-serif;
+  color: #270f02;
+}
+
+body header {
+  background-image: url(../files/concert.jpg);
+  position: relative;
+  text-align: center;
+  color: whitesmoke;
+  background-size: 100%;
+  font-size: 60px;
+  font-weight: 700;
+  margin-top: -1%;
+  padding-top: 0.2%;
+  text-shadow: 3px 2px 0px #270f02, 7px 3px 2.5px #917e73;
+}
+
+body #block1 {
+  font-size: 15pt;
+}
+
+body #block1 b {
+  text-shadow: white 1px 0.5px 0px, #444138 4px 2px 1.5px;
+}
+
+body #block1 .text {
+  margin-left: 4%;
+  text-align: justify;
+}
+
+body a {
+  color: #fd895e;
+}
+
+body a:hover {
+  color: red;
+}
+
+body .image {
+  text-align: center;
+  font-size: 10pt;
+}
+
+body .image .img1 {
+  width: 465px;
+  height: 290px;
+  border-radius: 5px;
+}
+
+body .image .img2 {
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+body .song {
+  background-color: #fffdeb;
+  margin-top: -1.5%;
+}
+
+body .song h2 {
+  text-shadow: #fffdeb 2px 1px 0px, #b2a98f 5px 3px 2px;
+}
+
+body .song p {
+  line-height: 1.2;
+}
+
+body .song p span {
+  white-space: pre;
+  line-height: 0.5;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+body .song p span .chords {
+  margin-left: 10%;
+}
+
+body .song .name {
+  background-color: #ffe0a6;
+}
+
+@media (max-width: 1023px) {
+  body {
+    background-color: white;
+  }
+  body header {
+    background-size: 140%;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: -3%;
+    padding-top: 0.2%;
+    text-shadow: 3px 2px 0px #270f02, 6px 3px 2.5px #917e73;
+  }
+  body #block1 {
+    font-size: 12pt;
+    text-align: justify;
+  }
+  body #block1 b {
+    text-shadow: white 0.7px 0.5px 0px, #444138 3px 1.5px 1.5px;
+  }
+  body .img1 {
+    width: 300px;
+    height: 180px;
+    border-radius: 4px;
+  }
+  body .img2 {
+    width: 220px;
+    height: 220px;
+    border-radius: 4px;
+  }
+  body .song {
+    margin-top: -2%;
+    background-color: lemonchiffon;
+  }
+  body .song p {
+    line-height: 1.1;
+  }
+  body .song p span {
+    font-weight: bolder;
+    color: black;
+  }
+  body .song .name {
+    background-color: lightgray;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 10pt;
+    background-color: white;
+  }
+  body header {
+    background-size: 150%;
+    font-size: 20px;
+    font-weight: 550;
+    margin-top: -4%;
+    padding-top: 0.2%;
+    text-shadow: 3px 2px 0px #270f02, 6px 3px 2.5px #917e73;
+  }
+  body #block1 {
+    font-size: 10pt;
+    text-align: center;
+  }
+  body #block1 b {
+    text-shadow: white 0.8px 0.3px 0px, #444138 2.5px 2px 1.5px;
+  }
+  body #block1 .text {
+    text-align: center;
+  }
+  body .image {
+    text-align: center;
+    font-size: 8pt;
+  }
+  body .image .img1 {
+    width: 250px;
+    height: 150px;
+    border-radius: 3px;
+  }
+  body .image .img2 {
+    width: 160px;
+    height: 160px;
+    border-radius: 3px;
+  }
+  body .song {
+    margin-top: -3.4%;
+    margin-bottom: -50px;
+    background-color: #fffdeb;
+  }
+  body .song p {
+    line-height: 1;
+  }
+  body .song .name {
+    background-color: #444138;
+    color: aliceblue;
+    font-weight: lighter;
+    font-size: 8pt;
+    line-height: 3;
+  }
+}
+/*# sourceMappingURL=text_style.css.map */

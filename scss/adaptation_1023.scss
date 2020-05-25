@@ -1,0 +1,39 @@
+@media (max-width: 1023px){
+    body{
+        background-color: white;
+
+        header{
+            @include header(140%, 50px, 700, -3%, 0.2%, $text-shadow2_1)
+        }
+
+        #block1{
+            font-size: 12pt;
+            text-align: justify;
+            b{
+                text-shadow: $text-shadow2_2;
+            }
+        }
+
+        .img1 {
+            @include images(300px, 180px, 4px)
+        }
+        .img2 {
+            @include images(220px, 220px, 4px)
+        }
+        
+        .song{
+            margin-top: -2%;
+            background-color: lemonchiffon;
+            p{
+                line-height: 1.1;
+                span{
+                    font-weight: bolder;
+                    color: black
+                }
+            }
+            .name{
+                background-color: lightgray;
+            }
+        }
+    }
+}

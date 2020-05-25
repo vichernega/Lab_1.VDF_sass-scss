@@ -1,0 +1,50 @@
+@media (max-width: 600px){
+    body{
+        font-size: 10pt;
+        background-color: rgb(255, 255, 255);
+
+        header{
+            @include header(150%, 20px, 550, -4%, 0.2%, $text-shadow3_1)
+        }
+
+        #block1{
+            font-size: 10pt;
+            text-align: center;
+            b{
+                text-shadow: $text-shadow3_2;
+            }
+            .text{
+                text-align: center;
+            }
+        }
+
+        .image{ 
+            text-align: center;
+            font-size: 8pt;
+
+            .img1{
+                @include images(250px, 150px, 3px);
+            }
+            .img2{
+                @include images(160px, 160px, 3px);
+            }
+        }
+
+        .song{
+            margin-top: -3.4%;
+            margin-bottom: -50px;
+            background-color: rgb(255, 253, 235);
+
+            p{
+                line-height: 1;
+            }
+            .name{
+                background-color: #444138;
+                color: aliceblue;
+                font-weight: lighter;
+                font-size: 8pt;
+                line-height: 3;
+            }
+        }
+    }
+}
